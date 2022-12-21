@@ -1,0 +1,125 @@
+
+.container{
+    width: 180px;
+    height: 200px;
+    overflow: hidden;
+    position: relative;
+}
+
+ .image{
+    width: 250px;
+    height: 200px;
+    object-fit: contain;
+    transform: translateX(-20px);
+    transition: all .5s linear;
+    opacity: 0.8;
+}
+
+.container:hover .image{
+    transform: translateX(0px);
+    opacity: 1;
+}
+
+.content1 .p1{
+    position: absolute;
+    color: whitesmoke;
+    top: 100px;
+    left: 20px;
+    opacity: 1;
+    transition: all .5s ease-in;
+    font-weight: bold;
+}
+
+.container:hover .content1 .p1{
+    transform: translateY(-20px);
+}
+
+.content1 .p2{
+    position: absolute;
+    color: azure;
+    top: 120px;
+    left: 20px;
+    visibility: hidden;
+    opacity: 0;
+    transition: all .5s ease-in;
+}
+
+.container:hover .content1 .p2{
+    transform: translateY(-20px);
+    visibility: visible;
+    opacity: 1;
+}
+
+.container1{
+    width: 200px;
+    height: 200px;
+    background-color: antiquewhite;
+    overflow: hidden;
+    position: relative;
+}
+
+.image2{
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+}
+
+.container1:hover .image2{
+    opacity: 0.8;
+}
+
+.p3{
+    position: absolute;
+    bottom: 0;
+    color: aliceblue;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    transition: all .3s linear;
+}
+
+.p3 span{
+    opacity: 0;
+}
+
+.container1:hover .p3{
+    transform: translateY(10px);
+}
+
+.container1:hover .p3 span{
+    animation: spinner .3s linear forwards;
+}
+
+@keyframes spinner {
+    0%{
+        opacity: 0;
+    }
+    50%{
+        opacity: 0.5;
+    }
+    100%{
+        opacity: 1;
+    }
+}
+
+.bot{
+    position: absolute;
+    margin-top: 20px;
+    width: 200px;
+    height: 0px;
+    bottom: 0;
+    transition: all .2s linear;
+}
+
+
+
+.container1:hover .bot::before{
+    height: 20px;
+}
+
+
+
+
+
+
+
+

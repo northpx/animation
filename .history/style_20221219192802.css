@@ -1,0 +1,45 @@
+/* .box1{
+    width: 100px;
+    height: 100px;
+    background-color: aqua;
+    transform: rotateX(45deg);
+}
+
+.box2{
+    width: 100px;
+    height: 100px;
+    background-color: bisque;
+    transform: rotateY(-45deg);
+}
+
+.box3{
+    width: 100px;
+    height: 100px;
+    background-color: blueviolet;
+    transform: rotate(180deg);
+} */
+.box1{
+    width: 100px;
+    height: 100px;
+    background-color: yellowgreen;
+    transform: translateX(100px);
+}
+
+.box2{
+    width: 100px;
+    height: 100px;
+    background-color: yellowgreen;
+}
+
+.box3{
+    width: 100px;
+    height: 100px;
+    background-color: antiquewhite;
+    transform: translateY(100px);
+}
+.box4{
+    width: 100px;
+    height: 100px;
+    background-color:  beige;
+    transform: translateX(-50px);
+}

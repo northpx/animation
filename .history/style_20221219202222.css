@@ -1,0 +1,116 @@
+/* .box1{
+    width: 100px;
+    height: 100px;
+    background-color: aqua;
+    transform: rotateX(45deg);
+}
+
+.box2{
+    width: 100px;
+    height: 100px;
+    background-color: bisque;
+    transform: rotateY(-45deg);
+}
+
+.box3{
+    width: 100px;
+    height: 100px;
+    background-color: blueviolet;
+    transform: rotate(180deg);
+} */
+/* .box1{
+    width: 100px;
+    height: 100px;
+    background-color: yellowgreen;
+    transform: translateX(100px);
+}
+
+.box2{
+    width: 200px;
+    height: 200px;
+    background-color: yellowgreen;
+    position: relative;
+}
+.box_child{
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    background-color: black;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.box3{
+    width: 100px;
+    height: 100px;
+    background-color: antiquewhite;
+    transform: translateY(100px);
+}
+.box4{
+    width: 100px;
+    height: 100px;
+    background-color:  beige;
+    transform: translateX(-50px);
+}
+
+.box_circle{
+    width: 100px;
+    height: 100px;
+    background-color: blueviolet;
+    border-radius: 50%;
+    scale: 1;
+    transition: all 0.3s ease-in-out;
+}
+
+.box_circle:hover{
+    scale: 1.5;
+}
+
+.box_skew{
+    width: 100px;
+    height: 100px;
+    background-color: bisque;
+    /* transform: skewX(45deg); */
+    /* transform: skew(50deg, 0deg);
+/* } */
+
+/* .box{
+    width: 100px;
+    height: 100px;
+    background-color: aquamarine;
+    margin: 50px;
+    perspective: 300px;
+    position: relative;
+}
+.box_child{
+    width: 20px;
+    height: 20px;
+    background-color: blueviolet;
+    top: 50%;
+    left: 50%;
+    position: absolute;
+}
+
+.box_child:hover{
+    transform: translateZ(100px);
+} */
+.container{
+    width: 180px;
+    height: 200px;
+    overflow: hidden;
+}
+
+ .image{
+    width: 250px;
+    height: 200px;
+    object-fit: contain;
+    transform: translateX(-50px);
+}
+
+.image:hover{
+    transform: translate();
+}
+
+
+

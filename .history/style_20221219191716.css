@@ -1,0 +1,18 @@
+.box1{
+    width: 100px;
+    height: 100px;
+    background-color: aqua;
+    transform: rotateX(45deg);
+}
+
+.box2{
+    width: 100px;
+    height: 100px;
+    background-color: bisque;
+    transform: rotateY(-45deg);
+}
+
+.box3{
+    width: 100px;
+    height: 100px;
+}
